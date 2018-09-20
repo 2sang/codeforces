@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 int main(int argc, char *argv[]){
-    int n, k, c=0;
-    cin >> n >> k;
+    int n, h;
+    cin >> n >> h;
+    int ans = n;
     for (int i = 0; i < n; i++) {
         int x;
         cin >> x;
-        if (x > 5-k) continue;
-        else c++;
+        if (x > h) ans++;
     }
-    printf("%d\n", c/3);
+    printf("%d\n", ans);
     return 0;
 }

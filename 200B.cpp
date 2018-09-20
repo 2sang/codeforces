@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 int main(int argc, char *argv[]){
-    int n, k, c=0;
-    cin >> n >> k;
+    int n;
+    double total = 0;
+    cin >> n;
     for (int i = 0; i < n; i++) {
-        int x;
+        double x;
         cin >> x;
-        if (x > 5-k) continue;
-        else c++;
+        total += x;
     }
-    printf("%d\n", c/3);
+    printf("%.6lf", total/(double)n);
     return 0;
 }

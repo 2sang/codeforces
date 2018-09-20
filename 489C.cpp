@@ -39,6 +39,5 @@ int main(int argc, char *argv[]){
     
     cout << mi << endl;
     cout << mx << endl;
-
     return 0;
 }
