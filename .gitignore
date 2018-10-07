@@ -1,2 +1,4 @@
 output
+output.txt
+expected_output.txt
 input.txt
