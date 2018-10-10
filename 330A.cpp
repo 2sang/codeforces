@@ -19,6 +19,6 @@ int main(int argc, char *argv[]) {
             }
         }
     }
-    cout << r*c - o_r.size() * o_r.size() << endl;
+    cout << r*c - o_r.size() * o_c.size() << endl;
     return 0;
 }
